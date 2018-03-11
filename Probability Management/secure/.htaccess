@@ -1,0 +1,5 @@
+ErrorDocument 401 "<html><head><title>Sorry!</title></head><body bgcolor=003366><font face=Verdana size=4 color=white><center><BR><BR>You have entered incorrect credentials.<BR><BR>Please join, or contact us for credentials.<BR><BR>Use the BACK button to return to the public area.</center></font></body></html>
+AuthType Basic
+AuthName "Probability Management Members Area"
+AuthUserFile /usr/local/etc/httpd/vhosts/probabilitymanagement.org/secure/.htpasswd
+require valid-user

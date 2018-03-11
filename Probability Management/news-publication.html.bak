@@ -1,0 +1,209 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="News about ProbabilityManagement">
+    <meta name="author" content="Sam Savage, Thomas von der Ohe">
+
+    <title>News & Publications</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Add custom CSS here -->
+    <link href="css/modern-business.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+   <div> Warning: Parts of this website will not be displayed properly, as you are using an old version of Internet Explorer (Version 8 or lower). If you want to upgrade, you can go <a href="http://windows.microsoft.com/en-us/internet-explorer/download-ie">here.</a> </div>
+<![endif]-->   
+
+      <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <!-- You'll want to use a responsive image option so this logo looks good on devices - I recommend using something like retina.js (do a quick Google search for it and you'll find it) -->
+          <a class="navbar-brand" href="index.html"><img src="img/pmlogonav.png" /></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <ul class="nav navbar-nav navbar-right">
+              <!-- <li><a href="index.html" ><span>Home</span></a></li> -->
+              <li><a href="what-we-do.html"><span>What We Do</span></a></li>
+              <li><a href="standards.html"><span>SIPmath Standard</span></a></li>
+              <li><a href="tools.html"><span>SIPmath Tools</span></a></li>
+              <li><a href="models.html"><span>Models</span></a></li>
+              <li class="active"><a href="news-publication.html"><span>News &amp; Publications</span></a></li>
+              <li><a href="about-us.html"><span>About Us</span></a></li>
+            </ul>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container -->
+    </nav>  
+
+
+  <div class="section" id="probabilityManagement">
+
+      <div class="container">
+
+	<div class="row">
+	 <div class="col-lg-12 col-md-12">
+	 <h2 class =  "page-header"><i class=""></i>Milestone Publications</h2>
+	</div>
+    
+
+	   <div class="col-lg-4 col-md-4">
+	<img src="images/SparkGif75p.gif" width="100" alt=""  border="0" /><br><br>
+November 2012: <a href="http://viewer.zmags.com/publication/90ffcc6b#/90ffcc6b/29" title="The Exponentially" target="_blank">Distribution Processing and the Arithmetic of Uncertainty</a>, Sam Savage Analytics Magazine. Introduces SIPmath
+in Excel, which performs thousands of simulations before your finger leaves the ENTER key, without macros or addins.
+	   
+	   </div> <!-- /.col -->
+
+	<div class="col-lg-4 col-md-4">
+	<img src="img/FOAcover.jpg" width="120" alt=""  border="0" /><br><br>
+<a href="http://flawofaverages.com" title="Flaw of Averages" target="_blank">The Flaw of Averages: Why We Underestimate Risk in the Face of Uncertainty</a> by Sam Savage, John Wiley, 2009, 2012. Describes the pitfalls of average-case analysis and lays out the necessity of Probability Management. <br><br></p>
+	   
+	   </div> <!-- /.col -->
+
+           <div class="col-lg-4 col-md-4">
+		<img src="img/ORMS Today.png" width="127" alt=""  border="0" /><br><br>
+              <p>A two-part foundational article on 
+                  Probability Management was published in <a href="http://www.lionhrtpub.com/ORMS.shtml" title="OR/MS Today">OR/MS 
+                  Today</a>. You can download PDF  
+                  (<a href="library/Probability_Management_Part1s.pdf" title="Probability Management I">Part 
+                  I</a>, <a href="library/Probability_Management_Part2s.pdf">Part II</a>) 
+                  or view online (<a href="http://www.lionhrtpub.com/orms/orms-2-06/frprobability.html">Part 
+                  I</a>, <a href="http://www.lionhrtpub.com/orms/orms-4-06/frprobability.html">Part 
+                  II</a>). (2006)</p>
+
+          </div> <!-- /.col -->
+
+	
+
+       
+
+      </div><!-- /.container -->
+
+  </div><!--/.section --> 
+ 
+
+
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h1 class="page-header">Books</h1>
+        </div>
+
+      </div><!-- /.row -->
+
+      <div class="row">
+
+        <div class="col-md-4 portfolio-item">
+          <a href="http://www.amazon.com/Calculating-Uncertainty-Probability-Management-Math/dp/1490947310"><img class="img-responsive" width="120" src="img/CalculatingUncertainty.jpg"></a>
+          <h3><a href="http://www.amazon.com/Calculating-Uncertainty-Probability-Management-Math/dp/1490947310" title="Calculating Uncertainty" target="_blank">Calculating Uncertainty: Probability Management with SIP Math</a></h3>
+          <p> <i> by John Marc Thibault, 2013. </i></br>
+          This book provides a brief introduction to Probability Management and a tutorial on the theory and practice of SIP math.</p>
+        </div>
+
+        <div class="col-md-4 portfolio-item">
+          <a href="http://www.amazon.com/Flexibility-Engineering-Design-Systems/dp/0262016230"><img class="img-responsive" width="120" src="img/Flexibility in Design.png"></a>
+          <h3><a href="http://www.amazon.com/Flexibility-Engineering-Design-Systems/dp/0262016230" title="Flexibility in Engineering Design" target="_blank">Flexibility in Engineering Design</a></h3>
+          <p><i> by Professor Richard de Neufville (MIT) and Professor Stefan Scholtes (Cambridge, co-founder of Probability Management), 2011 </i></br>
+          takes the position that designers of complex, long-lasting projects--such as communication networks, power plants, or hospitals--must learn to abandon fixed specifications and narrow forecasts. They need to avoid the "flaw of averages," the conceptual pitfall that traps so many designs in underperformance.</p>
+        </div>
+
+        <div class="col-md-4 portfolio-item">
+          <a href="http://www.amazon.com/Frontiers-Modern-Asset-Allocation-Finance/dp/1118115066/ref=ntt_at_ep_dpi_1"><img class="img-responsive" width="120" src="img/Asset Allocation.jpg"></a>
+          <h3><a href="http://www.amazon.com/Frontiers-Modern-Asset-Allocation-Finance/dp/1118115066/ref=ntt_at_ep_dpi_1" title="Frontiers of Modern Asset Allocation" target="_blank">Frontiers of Modern Asset Allocation</a></h3>
+          <p><i>by Paul Kaplan, Quantitative Research Director at Morningstar Europe, John Wiley, 2012. </i> </br> 
+            Chapter 25 of the book, entitled <i>Updating Monte Carlo Simulation for the Twenty-First Century</i>,
+            by Paul D. Kaplan and Sam Savage, describes Distribution Strings.</p>
+        </div>
+
+      </div>
+
+      <div class="row">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h1 class="page-header">Articles</h1>
+        </div>
+      </div><!-- /.row -->
+
+    </div><!-- /.container -->
+
+    <ul>
+
+		<li><p><a href="library/GFR_feb.pdf">Probability Management in Financial Planning</a>, Sam L.Savage and Shayne Kavanagh, Government Finance Review Magazine, February 2014. Discusses examples of the Flaw of Averages in public finance, and how they may be mitigated through the discipline of Probability Management. Excel sample files may be downloaded from our Models page.
+	    </p></li>
+		
+		<li><p><a href="http://viewer.zmags.com/publication/24bf7927#/24bf7927/52">The Sequestetron</a>, Sam Savage and Shayne Kavanagh, November/December 2013, Analytics Magazine. Describes the application of Probability Management to municipal finance in the face of uncertain tax revenues.
+	    </p></li>
+		
+	    <li><p><a href="http://viewer.zmags.com/publication/90ffcc6b#/90ffcc6b/29">Distribution Processing and the Arithmetic of Uncertainty</a>, Sam Savage, November/December 2012, Analytics Magazine. An introduction to SIPmath in Excel
+	    </p></li>
+
+            <li><p><a href="../library/NOL-Salama.pdf" title="Monetising NOLs" target= "_blank">Monetising NOLs: Finding the 
+          &lsquo;Flaw of Averages&rsquo; and Producing Useful Forecasts</a>, by Michael H. Salama, Tax Management Weekly State Tax Report. 
+          (2012)<br />
+          Addresses the issue of managing net operating losses under uncertainty. 
+            </p></li>
+
+            <li><p><a href="../library/Cost vs. Risk in Defense Portfolios.pdf" title="Cost vs. Risk in Defense Portfolios" target= "_blank">Cost vs. Risk in Defense Portfolios</a>, by Philip Fahringer and Sam Savage, Phalanx. (March 2012)<br />
+          Investigates the inherent tradeoffs between cost and military airlift preparedness using libraries of threat scenarios.
+            </p></li>
+
+            <li><p>The Flaw of Averages in U.S.Corporate Income Taxes: An Evaluation From the Taxpayer’S Perspective, by Michael H. Salama, Virginia Tax Review (2011)
+            </p></li>
+
+            <li><p><a href="../library/PMI FOA in Projects.pdf" title="FOA in Project Management" target= "_blank">The Flaw of Averages In Project Management</a>, in PMI Virtual Library, by Philip Fahringer, John Hinton, Marc Thibault and Sam Savage. (2011)<br />
+          Explores the use of Stochastic Libraries in simulating project completion.
+            </p></li>
+
+            <li><p><a href="../library/IWM11MarApr_MonteCarlo.pdf" title="Monte Carlo, A Lightbulb" target= "_blank">Monte Carlo, A Lightbulb for Illuminating Uncertainty</a>, in Investments &amp; Wealth Monitor, by Paul D. Kaplan and Sam Savage. (2011)<br />
+          Discusses the history and future of financial simulation including Distribution Strings.
+            </p></li>
+
+            <li><p>Toward a Consolidated Risk Statement, by Sam Savage and Aaron Brown, appears in the December issue of Risk Professional magazine. (Subscribers to the magazine may view it at their site.) It describes the potential of  Distribution Strings to enable the aggregation of risk reports across an organization. (2009)
+            </p></li>
+         </ul>
+
+
+       
+ <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <hr>
+              <p>Copyright &copy; ProbabilityManagement.org 2014 <b>To contact us, email</b> Melissa@ProbabilityManagement.org</p>
+              <!-- <a href="index.html"><img src="img/smalllogo.jpg" align="right" width="200"></a> -->
+            </div>
+          </div>
+
+      </div><!-- /.container -->
+
+    <!-- Bootstrap core JavaScript -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/modern-business.js"></script>
+  </body>
+</html>

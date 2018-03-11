@@ -1,0 +1,230 @@
+/* 
+Custom CSS for...
+'Modern Business' HTML Theme by Start Bootstrap
+
+All Start Bootstrap themes are licensed under Apache 2.0. 
+For more info and more free Bootstrap 3 HTML themes, visit http://startbootstrap.com!
+*/
+
+/* Global Styles */
+
+html, body {
+  height:100%;
+}
+
+body {
+  padding-top: 150px; /* body padding for fixed top nav */
+}
+
+img.logo {
+  height:75px;
+  width:180px;
+
+}
+
+#donateButton{
+  margin-top: 20px;
+}
+
+
+.whatsNew{
+  padding-top: 0px;
+}
+
+#probabilityManagement {
+  padding: 5px;
+}
+
+.screenshot-description {
+ font-style: italic;
+}
+
+.carousel-caption-headline .headline {
+  font-size: 2em;
+  padding: 0px;
+}
+
+.carousel-caption-headline {
+  position: absolute;
+ top: 50px;
+  /*top: 100px;*/
+  left: 15%;
+  z-index: 10;
+  color: #ffffff;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+}
+.carousel-caption .quote {
+  font-size: 1.5em;
+  font-style: italic;
+}
+.carousel-caption .statement {
+  font-size: 1.5em;
+}
+
+.carousel-caption .author-of-quote{
+  font-size: 1em;
+}
+
+.carousel-caption .infolink{
+  font-size: 1.25em;
+  font-style: bold;
+}
+
+.carousel-caption {
+  position: absolute;
+  right: 10%;
+  bottom: 10px;
+  left: 15%;
+  z-index: 10;
+/*  padding-bottom: 20px;
+*/  color: #ffffff;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+}
+
+.carousel-caption a {
+  color: #9CF;
+}
+
+.carousel-caption .btn {
+  text-shadow: none;
+}
+
+.img-home-portfolio,
+.img-customer,
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+.tab-pane {
+  margin-top: 15px;
+}
+
+/* Page Sections */
+.section,
+.section-colored,
+.section-colored2 {
+  padding: 25px 0;
+}
+
+.section-colored {
+  background-color: #e1e1e1; /* change this to change the background color of a colored section */
+}
+
+.section-colored2 {
+  background-color: #d8d8d8; /* change this to change the background color of a colored section */
+}
+
+.sidebar {
+  margin-top: 40px;
+}
+
+.sidebar ul {
+  border-radius: 5px;
+  padding: 5px;
+  border: 1px solid #cccccc;
+}
+
+/* Half Page Height Carousel Customization */
+.carousel {
+  height: 80%;
+}
+
+.item,
+.active,
+.carousel-inner {
+  height: 100%;
+}
+
+.fill {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+/* Social Icons Styles */
+.list-social-icons {
+  margin-bottom: 45px;
+}
+
+.tooltip-social a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.facebook-link a:hover {
+  color: #3b5998;
+}
+
+.linkedin-link a:hover {
+  color: #007fb1;
+}
+
+.twitter-link a:hover {
+  color: #39a9e0;
+}
+
+.google-plus-link a:hover {
+  color: #d14836;
+}
+
+/* Service Page Styles */
+.service-icon {
+  font-size: 50px;
+}
+
+/* 404 Page Styles */
+.error-404 {
+  font-size: 8em;
+}
+
+/* Pricing Page Styles */
+.price {
+  font-size: 4em;
+}
+
+.price-cents {
+  vertical-align: super;
+  font-size: 50%;
+}
+
+.price-month {
+  font-size: 35%;
+  font-style: italic;
+}
+
+.indent {
+  padding-left: 30px;
+}
+
+.fancyboxtext {
+  margin-top: -50px;
+  }
+
+/* Footer Styles */
+footer {
+  margin: 50px 0;
+}
+
+/* Responsive Styles */
+/*@media (max-width: 767px) {
+
+.carousel {
+  height: 70%; increases the carousel height so it looks good on phones 
+} 
+}
+*/
+
+@media (max-width: 767px) {
+  .carousel-caption-headline {
+    visibility: hidden;
+  }
+
+  .carousel-caption .statement,
+  .carousel-caption .quote,
+  .carousel-caption .infolink {
+    font-size: 1.15em;
+  }
+}

@@ -1,0 +1,17 @@
+Hello <FIRST_NAME> <LAST_NAME>,
+
+Thank you for your submission to <ORGNAME>.
+
+You have been issued the following credentials:
+
+Username:  <USERNAME>
+Password:  <PASSWORD>
+
+If you have any questions, please contact
+us at:
+
+<ORGMAIL>
+
+Thank you,
+
+<ORGNAME>

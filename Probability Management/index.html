@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Add more metainfo -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Sam Savage, Jordan Alen">
+
+  <title>The Flaw of Averages</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.css" rel="stylesheet">
+
+  <!-- Add custom CSS here -->
+  <link href="css/modern-business.css" rel="stylesheet">
+  <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="css/box.css" rel="stylesheet">
+
+  <!-- Fancybox CSS -->
+  <link rel="stylesheet" href="fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+      
+</head>
+
+<body>
+
+  <!-- <div class="section-colored2">
+   <div class="container">
+     <h1>The Flaw of Averages</h1>
+   </div>
+ </div> -->
+
+ <div id="myCarousel" class="carousel slide">
+    <!-- Indicators
+    <!--  <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+      </ol>
+    -->
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+
+    </div>
+
+
+    <!-- Controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="icon-prev"></span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="icon-next"></span>
+    </a>
+  </div>
+  
+  <div class="section">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 col-md-12">
+			<h4 align="center" style="font-size: 20px;">Plans based on average assumptions are <b>wrong</b> on average.</h4>
+			</div>
+		</div>
+	</div>
+  </div>
+  
+  <div class="section-colored">
+  	<div class="container">
+		<div class="row">
+
+<table border=0 cellpadding=8><TR><td width="5%"></td><TD width="*" valign="top">
+
+<table><TR><TD>
+"Statistical uncertainties are pervasive in decisions we make every day in business, government, and our personal lives.  Sam Savage's lively and engaging book gives any interested reader the insight and the tools to deal effectively with those uncertainties.  I highly recommend The Flaw of Averages."</TD></TR><TR><TD align=right>
+                                  <B>William J. Perry,</b> Former U.S. Secretary of Defense</TD></TR></table>
+
+<table><TR><TD>
+"Enterprise analysis under uncertainty has long been an academic ideal. ... In this profound and entertaining book, Professor Savage shows how to make all this practical, practicable and comprehensible."</TD></TR><TR><TD align=right>
+                                  <B>Harry Markowitz,</B> Nobel Laureate in Economics</TD></TR></table>
+
+<table width="100%"><TR><TD>
+"This is a book written for laymen with enough interesting insights to engage even the most scholarly professional."</TD></TR><TR><TD align=right>
+                                  <B>Douglas Hubbard,</B> Author of How to Measure Anything</TD></TR></table>
+
+<table width="100%"><TR><TD>
+"Sam Savage is the Edward Tufte of Risk."</TD></TR><TR><TD align=right>
+                                  <B>Matthew Raphaelson,</B> Executive Vice President, Wells Fargo Bank</TD></TR></table>
+
+</TD><TD width="20%" valign="top"><center>
+<iframe src="http://rcm-na.amazon-adsystem.com/e/cm?t=theflaofave-20&o=1&p=8&l=as1&asins=1118073754&nou=1&ref=tf_til&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=FFFFFF&bg1=FFFFFF&f=ifr" style="width:120px;height:240px;border-style:solid;border-width:1px;border-color:black;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe></center>
+</td>
+<td width="105" valign="top" align="center">
+<a href="http://flawofaverages.com/book/About Author.html" class="various" data-fancybox-type="iframe"><img src="./img/Sam Cambridge About.png" width="100" alt="samsavage"/><br />About<br />the Author</a>
+</td>
+
+</tr></table>
+
+		</div>
+	</div>
+  </div>
+
+  
+  <!-- Bootstrap core JavaScript -->
+  <!-- placed at end of file so everything loads faster -->
+  
+  <!-- jQuery CDN -->
+  <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+  
+      <script src="http://probabilitymanagement.org/js/bootstrap.js"></script>
+      <script src="http://probabilitymanagement.org/js/modern-business.js"></script>
+      <script src="js/carouselItems.js"></script>
+      <script type="text/javascript">
+        $(document).ready(function(){
+          for(carouselItemI in carouselItems){
+            carouselItem = carouselItems[carouselItemI];
+            var item = $('<div style="background-image: url('+carouselItem['image']+');"></div>').addClass('item').addClass('fill');
+            if('default' in carouselItem && carouselItem['default'] == true){
+              item.addClass('active');
+            }
+            // Create item headline
+            if('headline' in carouselItem){
+              var headline = $('<div></div>').addClass('carousel-caption-headline');
+              var headlineBox = $('<div></div>').addClass('box').addClass('effect2');
+                var headlineText = $('<div></div>').addClass('headline').html(carouselItem['headline']);
+                headlineBox.append(headlineText);
+              headline.append(headlineBox);
+              item.append(headline);
+            }
+
+            // Create item titles
+            if(('quote' in carouselItem) || ('statement' in carouselItem)){
+              var caption = $('<div></div>').addClass('carousel-caption');
+                var captionBox = $('<div></div>').addClass('box').addClass('effect2');
+                  var captionQuote = $('<div></div>').addClass('quote').html('&#34;' + carouselItem['quote'] + '&#34;');
+		  var captionStatement = $('<div></div>').addClass('statement').html(carouselItem['statement']);
+                  if ('quote' in carouselItem) { captionBox.append(captionQuote); }
+		  if ('statement' in carouselItem) { captionBox.append(captionStatement); }
+                  if (('author' in carouselItem) || ('infolink' in carouselItem)){
+                    var captionAuthor = $('<div></div>').addClass('author-of-quote').html(carouselItem['author']);
+		    var captionLink = $('<div></div>').addClass('infolink').html(carouselItem['infolink']);
+                    captionBox.append(captionAuthor,captionLink);
+                  }              
+                caption.append(captionBox);
+                item.append(caption);
+            }
+
+
+            $("#myCarousel .carousel-inner").append(item);
+          }
+
+          $('#myCarousel').carousel();
+        });
+      </script>
+	  
+  <!-- Fancybox Javascript -->
+      <script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+      <script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+      <script type="text/javascript" language="javascript">
+      $(document).ready(function() {
+	      $('.fancybox-media').fancybox({
+	        	openEffect  : 'none',
+		        closeEffect : 'none',
+		      helpers : {
+			      media : {}
+		      }
+	      });
+      });
+      </script>
+      <script type="text/javascript">
+		$(document).ready(function() {
+			$(".fancybox").fancybox();
+		});
+      </script>
+	<script>
+	$(document).ready(function() {
+	$(".various").fancybox({
+		maxWidth	: 800,
+		maxHeight	: 650,
+		fitToView	: false,
+		width		: '70%',
+		height		: '70%',
+		autoSize	: false,
+		closeClick	: false,
+		openEffect	: 'none',
+		closeEffect	: 'none'
+		});
+	});
+	</script>
+
+</body>

@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /library/
+Disallow: /secure/
+Disallow: /Coherence_files/
+Disallow: /documents
+Disallow: /for_mailing/
+Disallow: /models/

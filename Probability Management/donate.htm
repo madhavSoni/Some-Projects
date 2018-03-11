@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Sets icon in browser header -->
+<link rel="shortcut icon" href="img/pmicon.png">
+<link rel="apple-touch-icon" href="img/pmicon.png">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="ProbabilityManagement.org promotes the communication and calculation of uncertainty through education, best practices, and the open SIPmath standard.">
+	<meta name="author" content="Sam Savage, Thomas von der Ohe">
+
+	<title>ProbabilityManagement.org</title>
+
+	<!-- Bootstrap core CSS -->
+	<link href="css/bootstrap.css" rel="stylesheet">
+
+
+	<!-- Add custom CSS here -->
+	<link href="css/modern-business.css" rel="stylesheet">
+	<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<link href="css/box.css" rel="stylesheet">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+   <div> Warning: Parts of this website will not be displayed properly, as you are using an old version of Internet Explorer (Version 8 or lower). If you want to upgrade, you can go <a href="http://windows.microsoft.com/en-us/internet-explorer/download-ie">here.</a> </div>
+<![endif]-->   
+
+	<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<!-- You'll want to use a responsive image option so this logo looks good on devices - I recommend using something like retina.js (do a quick Google search for it and you'll find it) -->
+				<a class="navbar-brand" href="index.html"><img src="img/pmlogonav.png" /></a>
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse navbar-ex1-collapse">
+				<ul class="nav navbar-nav navbar-right">
+        <!-- <li><a href="index.html" ><span>Home</span></a></li> -->
+        <li><a href="what-we-do.html"><span>What We Do</span></a></li>
+		<li><a href="sip-math.html"><span>SIPmath</span></a></li>
+        <li><a href="standards.html"><span>2.0 Standard</span></a></li>
+        <li><a href="tools.html"><span>Download Free Tools</span></a></li>
+        <li><a href="news-publication.html"><span>News &amp; Publications</span></a></li>
+        <li><a href="about-us.html"><span>About Us</span></a></li>
+      </ul>
+			</div><!-- /.navbar-collapse -->
+		</div><!-- /.container -->
+	</nav>
+
+
+	<div class="container">
+
+		<div class="row">
+
+			<div class="col-lg-12 col-md-12">
+				<table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin-top:-20">
+					<tr>
+
+						<td width="75%" >
+							<table width="100%" border=0 cellpadding=0 cellspacing=0>
+								<tr>
+									<td width="65%" valign="top">
+										<div style="padding: 20px;">
+											<div style="text-align: center;">
+												<p style="margin-bottom: 0; font-size: 1.2em;"><b>How much would you like to contribute?</b></p>
+												<br>
+												<!-- <div style="width: 60%; background-color: #F2F2F2; border: 1px solid #CCC; padding: 0 20px; margin: 0 auto;"> -->
+												<script>
+												function checktos( form )
+												{
+													var checkbox = form["agree_tos"];
+													if( !checkbox.checked )
+													{
+														alert('Please read through the terms and check "I agree"');
+														document.getElementById( 'agree_tos_label' ).style.color = "red";
+														document.getElementById( 'agree_tos_label' ).style.fontWeight = "bold";
+														return false;
+													}else{
+														return true;
+													}
+												}
+												</script>
+												<form action="https://www.paypal.com/cgi-bin/webscr" method="post" name="donate_paypal" id="donate_paypal" onsubmit="return checktos(this);">
+													<input type="hidden" name="cmd" value="_donations">
+													<input type="hidden" name="business" value="C5QKKPUVH4RT6"> <!-- Sandbox: QNCBU3NVL2832 -->
+													<input type="hidden" name="lc" value="US">
+													<input type="hidden" name="item_name" value="Donation to ProbabilityManagement.org">
+													<input type="hidden" name="currency_code" value="USD">
+													<input type="hidden" name="button_subtype" value="donations">
+													<input type="hidden" name="no_note" value="1">
+													<input type="hidden" name="no_shipping" value="1">
+													<input type="hidden" name="rm" value="1">
+													<input type="hidden" name="return" value="http://probabilitymanagement.org/thankyou.php">
+													<input type="hidden" name="notify_url" value="http://probabilitymanagement.org/paypal_ipn.php">
+													<p>Donation: <strong>$</strong> <input type="text" name="amount" style="padding: 5px; width: 55px; font-size: 10px;" /></p>
+
+													
+
+													<p>Click this button to donate:</p>
+													<p><input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"></p>
+												</form>
+												<!-- </div> -->
+
+												<div style="margin: 30px auto; padding: 15px; text-align: center; width: 80%; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc;">
+													Your payment will be securely processed by PayPal<br /> an industry leader in secure online payments.
+												</div>
+											</div>
+										</div>
+									</td>
+									<td width="35%" valign="top" style="background-color: #e4e4e4; padding: 20px 15px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: normal;">
+										<div style="font-size: 16px; line-height: 1.5; color: #616265;">
+											<p>The discipline of probability management addresses the Flaw of Averages by radically re-thinking uncertainty in the light of current computer technology. The three goals of our open SIPmath&#8482 Standard are to improve:</p>
+
+											<ul>
+												<li>Communication of Uncertainties</li>
+												<li>Calculation with Uncertainties</li>
+												<li>Credibility of Uncertain Estimates</li>
+											</ul>
+										</div>
+										<div style="border: 2px solid #333; margin-top: 20px; margin-bottom: 20px; padding: 10px;">
+											<p style="margin: 0;">Probability Management, Inc. is a non-profit organization with 501(c)(3) tax-exempt status in the United States. Donations are tax-deductible to the extent allowed by law. All donations will be used solely for the purpose of promoting and developing Probability Management. Our tax ID # is 46-0572110.</p>
+										</div>
+									</td>
+								</tr>
+							</table>
+
+						</td>
+					</tr>
+				</table>
+				</div>
+			</div>
+		</div>
+	 <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <hr>
+              <p>Copyright &copy; ProbabilityManagement.org 2014 <b>To contact us, email</b> Melissa@ProbabilityManagement.org</p>
+              <!-- <a href="index.html"><img src="img/smalllogo.jpg" align="right" width="200"></a> -->
+            </div>
+          </div>
+
+      </div><!-- /.container -->
+
+	<!-- Bootstrap core JavaScript -->
+	<!-- Placed at the end of the document so the pages load faster -->
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/modern-business.js"></script>
+</body>
+</html>
+
