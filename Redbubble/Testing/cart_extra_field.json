@@ -1,0 +1,13 @@
+[
+  {
+    "product-type": "hoodie",
+    "options": {
+      "size": "small",
+      "colour": "dark",
+      "version": "2",
+      "print-location": "front"
+    },
+    "artist-markup": 60,
+    "quantity": 4
+  }
+]

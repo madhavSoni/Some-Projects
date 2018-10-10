@@ -1,0 +1,12 @@
+[
+  {
+      "product-type": "jacket",
+      "options": {
+        "size": "large",
+        "colour": "white",
+        "hood": "yes"
+      },
+      "quantity": 2,
+      "artist-markup" : 30
+    }
+]
